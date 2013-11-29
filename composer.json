@@ -22,7 +22,9 @@
     "require-dev": {
         "zendframework/zend-config": "~2",
         "zendframework/zend-db": "~2",
-        "zendframework/zend-json": "~2"
+        "zendframework/zend-json": "~2",
+        "videlalvaro/php-amqplib": "v2.2.2",
+        "phpunit/phpunit": "3.7.*"
     },
     "require": {
         "php": ">=5.3.3",

@@ -71,7 +71,7 @@ class Message
                     '$options[\'queue\'] = ' . $result . ': must be instanceof \ZendQueue\Queue'
                 );
             }
-        }
+        }var_dump(__CLASS__.__FUNCTION__.__LINE__, $options['data']);
         if (isset($options['data'])) {
             if (!is_array($options['data'])) {
                 throw new Exception\InvalidArgumentException('Data must be an array');
